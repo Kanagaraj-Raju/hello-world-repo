@@ -16,7 +16,7 @@ jobs:
             pip install pytest flake8
         - name: Check Python Version
           run: |
-            python3 --version
+            python --version
         - name: Run Flake8 Linting
           run: |
             flake8 --version
