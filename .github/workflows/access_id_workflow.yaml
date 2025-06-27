@@ -1,0 +1,11 @@
+name: Access Id Workflow
+
+on: push
+
+jobs:
+    print_access_id:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print access id
+              run: |
+                echo ${{ vars.ACCESS_ID }}
