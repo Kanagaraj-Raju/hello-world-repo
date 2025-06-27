@@ -8,4 +8,4 @@ jobs:
         steps:
             - name: print access id
               run: |
-                echo ${{ vars.ACCESS_ID }}
+                echo "The ACCESS_ID is ${{ vars.ACCESS_ID }}"
